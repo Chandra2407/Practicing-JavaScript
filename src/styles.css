@@ -17,14 +17,19 @@ body {
   height: auto;
   flex-direction: column;
 }
+
 button {
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
+  cursor: pointer;
   /* transition: 0.4s ease-in-out; */
 }
 #demo {
   margin: 20px 0px;
   color: red;
+  text-align: center;
+}
+.imageChange {
   text-align: center;
 }

@@ -45,3 +45,34 @@ console.log(a.search("dog"));
 console.log(a.match(/a/gi));
 
 console.log(typeof NaN);
+let text3 = "<ul><li>ad</li><li>da</li></ul>";
+document.getElementById("demo3").innerHTML = text3;
+console.log(b.join("-"));
+const c = a.split(" ");
+console.log(c);
+console.log(b.pop());
+console.log(b);
+console.log(b.push("gay"));
+console.log(b.unshift("-_-"));
+// array.splice(2,2,"dad","adad"); Splice  Method
+console.log(b.concat(c));
+const arr1 = [5, 10, 2, 3];
+console.log(arr1.sort());
+const arr2 = arr1.reverse();
+console.log(arr2);
+const arr3 = [1, 10, 5, 3, 20, 15];
+console.log(arr3);
+const arr4 = arr3.sort(function (a, b) {
+  return a - b;
+});
+console.log(arr4);
+console.log(Math.max.apply(null, arr4));
+const arr5 = [24, 3, 10, 100];
+let len = arr5.length;
+let max = -Infinity;
+for (let i = 0; i < len; i++) {
+  if (arr5[i] > max) {
+    max = arr5[i];
+  }
+}
+console.log(max);
